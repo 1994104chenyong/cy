@@ -1,0 +1,269 @@
+body{
+    background: #EAEAEA;
+}
+.four_header{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    color: #999999;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    .three_sp{
+        font-size: 0.36rem;
+        color: black;
+    }
+    .header_div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header_logo{
+        margin: .16rem 0 .18rem .16rem;
+    }
+    .header_right{
+        margin:.24rem .16rem 0 0;
+        .header_sp1{
+            font-size: 0.45rem;
+        }
+        .header_sp2{
+            font-size: 0.22rem;
+        }
+    }
+}
+.six_logo{
+    width: 100%;
+}
+.six_main{
+    padding:  0.2rem;
+    border-bottom: 0.16rem solid #EAEAEA;
+    position: relative;
+    .six_one{
+        width: 100%;
+        padding: 0.1rem;
+        background: #F4F4F4;
+        font-size: 0.26rem;
+        border-radius: 0.1rem;
+    }
+    .six_two{
+        text-align: center;
+        font-size: 0.36rem;
+        border-bottom: 1px solid #EAEAEA;
+        margin-top: 0.36rem;
+        .six_two_rq{
+            margin-top: 0.2rem;
+            font-size: 0.24rem;
+            color: #999999;
+            margin-bottom: 0.3rem;
+        }
+    }
+    .six_three{
+        margin-top: 0.10rem;
+        display: flex;
+        flex-wrap:wrap ;
+        span{
+            font-size: 0.24rem;
+            border-radius: 0.1rem;
+            margin:.18rem 0 0rem .2rem ;
+            border: 1px solid #999999;
+            padding: 0 0.1rem 0 0.1rem ;
+        }
+    }
+    .six_zi{
+        margin-bottom: 0.3rem;
+        margin-top: 0.3rem;
+        font-size: 0.24rem;
+        color: #666666;
+    }
+    .six_logo{
+        width: 70%;
+        margin-left: 1.04rem ;
+        margin-bottom: 0.5rem;
+    }
+    .six_four{
+        border: 1px solid #39C991;
+        width: 100%;
+        text-align: center;
+        height: 0.7rem;
+        line-height: 0.7rem;
+        color: #39C991;
+        font-size: 0.36rem;
+    }
+    .six_div_logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        li{
+           width: 100%;
+           text-align: center; 
+           list-style: none;
+           padding: 0.36rem 0 0.36rem 0;
+           div{
+              font-size: 0.24rem; 
+              margin-top: 0.24rem;
+              color:#39C991 ;
+           }
+        }
+        
+    }
+    .dingwei{
+        width: 100%;
+        background: black;
+        opacity: 0.8;
+        padding: 0.34rem;
+        position: absolute;
+        bottom: 1.45rem;
+        ul{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            li{
+                width: 40%;
+                text-align: center;
+                margin-top: 0.46rem;
+                font-size: 0.36rem;
+                color: white; 
+                img{
+                    margin-bottom: 0.24rem;
+                }
+            }
+        }
+        .dingwei_an{
+            width: 90%;
+            text-align: center;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            font-size: 0.36rem;
+            margin: 0 auto ;
+            background: white;
+            margin-top: 0.65rem;
+            border-radius: 0.05rem;
+        }
+    }
+}
+.zu{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0.18rem;
+    background-color: white;
+    .zu_top{
+         width: 100%;
+        padding: .32rem .24rem .32rem .14rem;
+        .zu_sp1{
+            display: inline-block;
+            height: .42rem;
+            line-break: .42rem;
+            font-size: .36rem;
+            padding-left: .14rem;
+            padding-right: 0.14rem;
+            border-left: 5px solid green;
+        }
+    }
+    .zu_gengduo{
+        display: flex;
+        padding:0 0.14rem 0 0.14rem ;
+        padding-bottom: 0.36rem;
+        justify-content: space-between;
+        li{
+            width: 100%;
+            text-align: center;
+            height: 0.7rem;
+            font-size: 0.28rem;
+            line-height: 0.7rem;
+            border: 1px solid #EAEAEA;
+            .zu_gengduo_logo{
+                width: 0.28rem;
+            }
+        }
+    }
+    .zu_gonglue{
+        padding: 0.14rem;
+        li{
+            display: flex;
+            margin-bottom: 0.32rem;
+            .zu_gonglue_logo{
+                width: 1.9rem;
+                height: 1.45rem;
+            }
+            .zu_gonglue_div{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-left: 0.22rem;
+                font-size: 0.36rem;
+                .zu_gonglue_div2{
+                    font-size: 0.28rem;
+                    color: #999999;
+                    .zu_gonglue_sp{
+                        margin-left: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+}
+.zi{
+    width: 100%;
+   padding: 0.36rem;
+    font-size: 0.28rem;
+    color:#333333;
+    background: white;
+    text-indent:2em ;
+    border-bottom:0.16rem solid #EAEAEA;
+    border-top:0.16rem solid #EAEAEA;
+//  margin-bottom: 0.16rem;
+}
+.footer{
+    width: 100%;
+    background: white;
+    .fuwu{
+        width: 100%;
+        font-size: 0.26rem;
+        text-align: center;
+        padding-bottom: .3rem;
+        padding-top:0.5rem ;
+    }
+    .kefu{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        li{
+            width: 25%;
+            text-align: center;
+            font-size: 0.28rem;
+        }
+    }
+}
+.footer_nav{
+    width: 100%;
+    height: 1.06rem;
+    background: #282828;
+    opacity: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+    .footer_b{
+        display: flex;
+        font-size: 32px;
+        .footer_b1 p{
+            color: #eed215;
+        }
+        .footer_b1 span{
+            color: white;
+        }
+    }
+    .footer_c{
+        width: 1.75rem;
+        height: 0.5rem;
+        font-size: 0.24rem;
+        background: #feb605;
+        color: white;
+        border-radius: 0.5rem;
+        text-align: center;
+        line-height: 0.5rem;
+        align-self: center;
+    }
+}
+.tu{
+    width: 100%;
+}

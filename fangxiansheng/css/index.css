@@ -1,0 +1,248 @@
+body {
+  background-color: #eaeaea; }
+
+.header {
+  width: 100%;
+  background-color: white;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box; }
+  .header .header_div {
+    display: flex;
+    justify-content: space-between; }
+  .header .header_logo {
+    margin: .16rem 0 .18rem .16rem; }
+  .header .header_right {
+    margin: .16rem .16rem .18rem 0; }
+    .header .header_right .header_sp1 {
+      font-size: .45rem; }
+    .header .header_right .header_sp2 {
+      font-size: .22rem; }
+
+.lunbo {
+  width: 100%;
+  color: #333333; }
+
+.lb {
+  width: 100%;
+  padding-bottom: 0.4rem;
+  box-sizing: border-box;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .lb .lb_li {
+    width: 25%;
+    text-align: center; }
+    .lb .lb_li .lb_logo {
+      width: 1.2rem;
+      margin: .36rem; }
+    .lb .lb_li .lb_div {
+      font-size: .28rem; }
+
+.zu {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0.18rem;
+  background-color: white; }
+  .zu .zu_top {
+    width: 100%;
+    padding: .32rem .24rem .32rem .14rem; }
+    .zu .zu_top .zu_sp1 {
+      display: inline-block;
+      height: .42rem;
+      line-break: .42rem;
+      font-size: .36rem;
+      padding-left: .14rem;
+      padding-right: 0.14rem;
+      border-left: 5px solid green; }
+    .zu .zu_top .zu_sp2 {
+      font-size: .24rem;
+      color: #999999; }
+  .zu .zu_logo {
+    width: 100%;
+    padding: 0 .14rem 0 .14rem; }
+  .zu .zu_footer {
+    padding: .36rem .14rem .26rem .14rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+    .zu .zu_footer .zu_footer_div {
+      width: 40%;
+      font-size: .28rem;
+      color: #000000; }
+      .zu .zu_footer .zu_footer_div .zu_footer_logo {
+        width: .36rem; }
+  .zu .zu_main {
+    width: 100%;
+    padding: 0.14rem;
+    display: flex;
+    flex-wrap: wrap; }
+    .zu .zu_main .zu_in1 {
+      width: 5.86rem;
+      margin: 0 auto;
+      height: 0.7rem;
+      border: 1px solid #eaeaea;
+      border-radius: 5px;
+      margin-bottom: 0.25rem;
+      font-size: 0.28rem;
+      padding-left: 0.16rem; }
+    .zu .zu_main .zu_main_div {
+      width: 5.86rem;
+      text-align: center;
+      height: 0.7rem;
+      line-height: 0.7rem;
+      color: white;
+      font-size: 0.36rem;
+      background: #FEB605;
+      border-radius: 5px;
+      margin: 0 auto;
+      margin-bottom: 0.36rem; }
+  .zu .zu_sheji {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .zu .zu_sheji li {
+      width: 25%;
+      text-align: center; }
+      .zu .zu_sheji li .zu_sheji_logo {
+        margin-bottom: 0.25rem; }
+      .zu .zu_sheji li .zu_sheji_div1 {
+        font-size: 0.36rem; }
+      .zu .zu_sheji li .zu_sheji_div2 {
+        width: 1.2rem;
+        text-align: center;
+        margin: 0 auto;
+        height: 0.32rem;
+        line-height: 0.32rem;
+        font-size: 0.24rem;
+        background: #39C893;
+        color: white;
+        border-radius: 5px;
+        margin-top: 0.1rem;
+        margin-bottom: 0.36rem; }
+  .zu .zu_gengduo {
+    display: flex;
+    padding: 0 0.14rem 0 0.14rem;
+    padding-bottom: 0.36rem;
+    justify-content: space-between; }
+    .zu .zu_gengduo li {
+      width: 50%;
+      text-align: center;
+      height: 0.7rem;
+      font-size: 0.28rem;
+      line-height: 0.7rem;
+      border: 1px solid #EAEAEA; }
+      .zu .zu_gengduo li .zu_gengduo_logo {
+        width: 0.28rem; }
+  .zu .zu_xiaoguo {
+    width: 100%;
+    padding: 0.14rem; }
+    .zu .zu_xiaoguo img {
+      margin-bottom: 0.08rem; }
+  .zu .zu_gongdi {
+    padding: 0.14rem; }
+    .zu .zu_gongdi .zu_logo {
+      width: 7.16rem;
+      height: 5.34rem; }
+    .zu .zu_gongdi .zu_gongdi_div {
+      width: 100%;
+      padding: 0.14rem;
+      font-size: 0.26rem; }
+      .zu .zu_gongdi .zu_gongdi_div .zu_gongdi_kuang {
+        background: #39C893;
+        color: white;
+        border-radius: 5px; }
+  .zu .zu_gonglue {
+    padding: 0.14rem; }
+    .zu .zu_gonglue li {
+      display: flex;
+      margin-bottom: 0.32rem; }
+      .zu .zu_gonglue li .zu_gonglue_logo {
+        width: 1.9rem;
+        height: 1.45rem; }
+      .zu .zu_gonglue li .zu_gonglue_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0.22rem;
+        font-size: 0.36rem; }
+        .zu .zu_gonglue li .zu_gonglue_div .zu_gonglue_div2 {
+          font-size: 0.28rem;
+          color: #999999; }
+          .zu .zu_gonglue li .zu_gonglue_div .zu_gonglue_div2 .zu_gonglue_sp {
+            margin-left: 0.75rem; }
+
+.zi {
+  width: 100%;
+  padding: 0.36rem;
+  font-size: 0.28rem;
+  color: #333333;
+  background: white;
+  text-indent: 2em;
+  margin-bottom: 0.16rem; }
+
+.footer {
+  width: 100%;
+  background: white; }
+  .footer .fuwu {
+    width: 100%;
+    font-size: 0.26rem;
+    text-align: center;
+    padding-bottom: .3rem;
+    padding-top: 0.5rem; }
+  .footer .kefu {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .footer .kefu li {
+      width: 25%;
+      text-align: center;
+      font-size: 0.28rem; }
+
+.footer_nav {
+  width: 100%;
+  height: 1.06rem;
+  background: #282828;
+  opacity: 80%;
+  display: flex;
+  justify-content: space-between; }
+  .footer_nav .footer_b {
+    display: flex;
+    font-size: 32px; }
+    .footer_nav .footer_b .footer_b1 p {
+      color: #eed215; }
+    .footer_nav .footer_b .footer_b1 span {
+      color: white; }
+  .footer_nav .footer_c {
+    width: 1.75rem;
+    height: 0.5rem;
+    font-size: 0.24rem;
+    background: #feb605;
+    color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    align-self: center; }
+
+.tu {
+  width: 100%; }
+
+.tu1 {
+  display: inline-block;
+  width: 0.94rem;
+  text-align: center;
+  color: #9c9c9c;
+  height: 0.94rem;
+  line-height: 0.94rem;
+  border: 1px solid #dedede;
+  background: #FFFFFF;
+  font-size: 0.4rem;
+  position: fixed;
+  top: 540px;
+  right: 0;
+  border-radius: 50px; }
+
+/*# sourceMappingURL=index.css.map */

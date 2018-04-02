@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/five.css"/>
+		<link rel="stylesheet" type="text/css" href="js/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<title></title>
+	</head>
+	<body>
+	</body>
+		<div>
+			<div class="five_header">
+				<span class="glyphicon glyphicon-menu-left five_sp1"></span>
+				<span class="three_sp">装修流程</span>
+				<div class="header_div">
+					<div class="header_right">
+						<span class="glyphicon glyphicon-th header_sp1"></span>
+						<p class="header_sp2">导航</p>
+					</div>
+				</div>
+			</div>
+			<div class="five_main">
+				<img src="img/bg.png" class="five_logo"/>
+				<ul class="five_yuan">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="five_div1"></div>
+				<div class="five_div2"></div>
+				<div class="five_div3"></div>
+				<div class="five_div4"></div>
+				<div class="five_div5"></div>
+				<div class="five_div6"></div>
+			</div>
+			<ul class="five_zi">
+				<li>餐厅(1)</li>
+				<li>卧室(1)</li>
+				<li>客厅(1)</li>
+				<li>餐厅(1)</li>
+				<li>书房(1)</li>
+			</ul>
+			<div class="five_div_zi">
+				设计诠释: less is more 不需要过多的装饰，
+				简单的墙面背静与间接的家具即可组成一个温暖的家
+			</div>
+			<div class="zi">
+				房先生互联网加装有别于传统装修公司与其他装修中介平台，以自营模式整合设计师与项目经理，杜绝项目
+				转包外包，利用互联网将工地进行在线全景直播，通过去中间环节，提供装修套餐+各项华定制服务。
+			</div>
+			<div class="footer">
+				<div class="fuwu">
+					<img src="img/tel.png"/>
+					服务热线:400-9977-658
+				</div>
+				<ul class="kefu">
+					<li>触屏版</li>
+					<li>电脑版</li>
+					<li>关于我们</li>
+					<li>联系我们</li>
+				</ul>
+			</div>
+		<div class="five_footer_div">
+			考虑到克劳福德克劳福德李开复的客流量卡
+		<div class="five_footer">
+			<span class="glyphicon glyphicon-pencil"></span>
+			<span>预约免费设计</span>
+		</div>
+		</div>
+		<img src="img/tu.png" class="tu"/>
+			
+			
+			
+			
+			
+			
+			
+		</div>
+	<script>
+			//designWidth:设计稿的实际宽度值，需要根据实际设置
+//maxWidth:制作稿的最大宽度值，需要根据实际设置
+//这段js的最后面有两个参数记得要设置，一个为设计稿实际宽度，一个为制作稿最大宽度，例如设计稿为750，最大宽度为750，则为(750,750)
+;(function(designWidth, maxWidth) {
+	var doc = document,
+	win = window,
+	docEl = doc.documentElement,
+	remStyle = document.createElement("style"),
+	tid;
+
+
+	function refreshRem() {
+		var width = docEl.getBoundingClientRect().width;
+		maxWidth = maxWidth || 540;
+		width>maxWidth && (width=maxWidth);
+		var rem = width * 100 / designWidth;
+		remStyle.innerHTML = 'html{font-size:' + rem + 'px;}';
+	}
+
+
+	if (docEl.firstElementChild) {
+		docEl.firstElementChild.appendChild(remStyle);
+	} else {
+		var wrap = doc.createElement("div");
+		wrap.appendChild(remStyle);
+		doc.write(wrap.innerHTML);
+		wrap = null;
+	}
+	//要等 wiewport 设置好后才能执行 refreshRem，不然 refreshRem 会执行2次；
+	refreshRem();
+
+
+	win.addEventListener("resize", function() {
+		clearTimeout(tid); //防止执行两次
+		tid = setTimeout(refreshRem, 300);
+	}, false);
+
+
+	win.addEventListener("pageshow", function(e) {
+		if (e.persisted) { // 浏览器后退的时候重新计算
+			clearTimeout(tid);
+			tid = setTimeout(refreshRem, 300);
+		}
+	}, false);
+
+
+	if (doc.readyState === "complete") {
+		doc.body.style.fontSize = "16px";
+	} else {
+		doc.addEventListener("DOMContentLoaded", function(e) {
+			doc.body.style.fontSize = "16px";
+		}, false);
+	}
+})(750, 750);
+		</script>
+</html>
