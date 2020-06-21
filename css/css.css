@@ -97,7 +97,7 @@ color:#eee
 .nav .nav_1 .nav_nav2 .nav_nav3 #nav_login:hover { display:block; background-color:#fafafa; border:1px solid #eee; width:58px; height:44px; font-size:15px; font-family:"微软雅黑"; border-radius:3px; color:#333; line-height:44px; text-align:center; margin-top:19px; margin-left:15px }
 .footLineGray { clear:both; width:100%; border-top:1px solid #b8b8b8; line-height:0; height:0; font-size:0 }
 .footLineWhite { clear:both; width:100%; border-top:1px solid #fff; line-height:0; height:0; font-size:0 }
-.webFoot { clear:both; width:100%; height:44px; background-color:#ddd; color:#777 }
+.webFoot { clear:both; width:100%; height:92px; background-color:#ddd; color:#777 }
 .foot { height:100% }
 .footLeft { float:left; height:100% }
 .footLeft span { float:left; margin-left:13px; line-height:44px }
@@ -580,7 +580,7 @@ _margin-left:30px; width:80px; height:80px; float:left; background:url("../img/c
 .hdInfoBox .useImg_1 { background:url("../img/Column03_1.jpg")/*tpa=http://zqsdk.cn/img/Column03_1.jpg*//*tpa=http://zqsdk.cn/img/Column03_1.jpg*/ center no-repeat }
 .hdInfoBox .useImg_2 { background:url("../img/Column03_2.jpg")/*tpa=http://zqsdk.cn/img/Column03_2.jpg*//*tpa=http://zqsdk.cn/img/Column03_2.jpg*/ center no-repeat }
 .hdInfoBox .useImg_3 { background:url("../img/Column03_3.jpg")/*tpa=http://zqsdk.cn/img/Column03_3.jpg*//*tpa=http://zqsdk.cn/img/Column03_3.jpg*/ center no-repeat }
-.webFoot { clear:both; width:100%; height:44px; background-color:#ddd; color:#777 }
+.webFoot { clear:both; width:100%; height:92px; background-color:#ddd; color:#777 }
 .foot { height:100% }
 .footLeft { float:left; height:100% }
 .footLeft span { float:left; margin-left:25px; line-height:44px }
@@ -714,7 +714,8 @@ background:url("../img/userBg.jpg")/*tpa=http://zqsdk.cn/img/userBg.jpg*//*tpa=h
 .regContent {
     clear: both;
     display: block;
-    width: 806px;
+    text-align: center;
+    width: 100%;
     height: auto;
     margin: auto;
     padding-top: 25px;
@@ -836,12 +837,12 @@ width:560px; height:auto; line-height:25px; border:1px solid #d5d5d5; z-index:99
 .aboutTitleLeft_2 { float:left; width:500px; height:140px }
 .aboutTitleLeft_3 { float:left; width:520px; height:140px }
 .aboutTitleLeft_4 { float:left; width:940px; height:140px }
-.aboutTitleRight { float: right; width:354px; height:220px; background:url("../img/fai_img.jpg")/*tpa=http://zqsdk.cn/img/fai_img.jpg*//*tpa=http://zqsdk.cn/img/fai_img.jpg*/ center no-repeat; margin-top: 70px; _margin-top:70px; margin-right: 80px; }
+/* .aboutTitleRight { float: right; width:354px; height:220px; background:url("../img/fai_img.jpg") center no-repeat; margin-top: 70px; _margin-top:70px; margin-right: 80px; } */
 .aboutTitleRight_2 { float:left; width:338px; height:215px; margin-top:181px; _margin-top:40px; _margin-left:260px }
 .aboutTitleRight_3 { float:left; width:338px; height:215px; margin-top:162px; _margin-top:30px; _margin-left:260px }
 .aboutContent { clear:both; width:100%; height:auto }
 .aboutContent img { float:left }
-.aboutContent .aboutText { text-indent:18px; -text-indent:1.5em; font-family:"微软雅黑"; color:#282828; font-size:15px; line-height:35px; padding-left:71px; width:540px; float:left; top:135px; position:absolute; height:149px }
+.aboutContent .aboutText { text-indent:18px; -text-indent:1.5em; font-family:"微软雅黑"; color:#282828; font-size:15px; line-height:35px; padding-left:71px; width:540px;  top:135px; height:149px }
 .aboutContent .aboutText a { text-decoration:none; letter-spacing:normal }
 .aboutMenu { width:73px; height:40px; line-height:40px; text-align:center; background:#FFF; border:1px solid #e5e5e5; color:#666; cursor:pointer; margin-top:5px }
 .aboutMenuCheck { border-right-color:#fff }
