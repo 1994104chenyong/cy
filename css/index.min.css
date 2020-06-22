@@ -4,14 +4,16 @@
 .newsContent { font-family:微软雅黑; height:620px; background:#fff }
 .newsContent .newsTitle { padding:50px 0 }
 .newsContent .newsList { float:left; width:455px; height:100px; margin:0 20px 50px 20px; _margin:0 15px 50px 15px }
-.newsContent .newsList .newsMounth { float:left; width:60px; height:50px; line-height:50px; text-align:center; background:#dbdbdb; font-size:18px; color:#767676 }
+.newsContent .newsList .newsMounth { float:left; width:60px; height:50px; line-height:50px; text-align:center; background:#2a6dbb; font-size:18px; color:#fff }
+.newsContent .newsList .newsMounth1 { float:left; width:190px; height:50px; line-height:50px; text-align:center; background:#2a6dbb; font-size:18px; color:#fff }
 .newsContent .newsList .newsMounth2 { float:left; width:60px; height:50px; line-height:50px; text-align:center; background:#2a6dbb; font-size:18px; color:#fff }
-.newsContent .newsList .newsListTitle { float:left; width:370px; height:50px; line-height:50px; padding-left:25px; text-decoration:none; color:#000; font-size:16px; background:url("../img/comm.png")/*tpa=http://zqsdk.cn/img/comm.png*/ 375px -519px no-repeat; _background:url("../img/comm.gif")/*tpa=http://zqsdk.cn/img/comm.gif*/ 375px -519px no-repeat }
+.newsContent .newsList .newsListTitle { width:370px; height:50px; line-height:50px; padding-left:25px; text-decoration:none; color:#000; font-size:16px; background:url("../img/comm.png")/*tpa=http://zqsdk.cn/img/comm.png*/ 375px -519px no-repeat; _background:url("../img/comm.gif")/*tpa=http://zqsdk.cn/img/comm.gif*/ 375px -519px no-repeat }
 .newsContent .newsList .newsListTitle:hover { text-decoration:underline }
-.newsContent .newsList .newsListTitle2 { float:left; width:370px; height:50px; line-height:50px; padding-left:25px; text-decoration:none; color:#2a6dbb; font-size:16px; background:url("../img/comm.png")/*tpa=http://zqsdk.cn/img/comm.png*/ 375px -588px no-repeat; _background:url("../img/comm.gif")/*tpa=http://zqsdk.cn/img/comm.gif*/ 375px -588px no-repeat }
+.newsContent .newsList .newsListTitle2 { float:left; width:370px; height:50px; line-height:50px; padding-left:25px; text-decoration:none; color:#000; font-size:16px; background:url("../img/comm.png")/*tpa=http://zqsdk.cn/img/comm.png*/ 375px -588px no-repeat; _background:url("../img/comm.gif")/*tpa=http://zqsdk.cn/img/comm.gif*/ 375px -588px no-repeat }
 .newsContent .newsList .newsListTitle2:hover { text-decoration:underline }
 .newsContent .newsList .newsDay { float:left; width:60px; height:50px; line-height:50px; text-align:center; background:#fff; font-size:26px; font-weight:bold; color:#959595 }
 .newsContent .newsList .newsSummary { float:left; width:370px; height:50px; line-height:18px; padding-left:25px; color:#b0b0b0 }
+.newsList .newsListTitle1 { height:50px; line-height:50px; padding-left:25px; text-decoration:none; color:#000; font-size:16px }
 .webLink_index { clear:both; width:100%; background-color:#e8e8e8; border-top:5px solid #d8d8d8 }
 .link_index { padding:8px 0 10px 0; position:relative }
 .linkLine { position:absolute; left:245px; top:25px; bottom:25px; width:2px; height:auto; *height:expression(document.getElementById("link_index").offsetHeight - 50);
@@ -72,7 +74,7 @@ background:url("../img/linkLine2.png")/*tpa=http://zqsdk.cn/img/linkLine2.png*/ 
 * { margin:0; padding:0 }
 a { text-decoration:none }
 img { border:0 }
-.banner {height:640px;width: 100%; background:url("../img/br01.jpg")/*tpa=http://zqsdk.cn/img/br01.jpg*/ center bottom no-repeat;background-size:100%,100%; }
+.banner {height:500px;width: 100%; background:url("../img/br01.jpg")/*tpa=http://zqsdk.cn/img/br01.jpg*/ center no-repeat;background-size:120%,100%; }
 .banner_jz { height:587px; background:url("../img/x.jpg")/*tpa=http://zqsdk.cn/img/x.jpg*/ }
 .banner_jz .banner_ba_jz { width:100%; height:588px; background:url("../img/br02.jpg")/*tpa=http://zqsdk.cn/img/br02.jpg*/ center no-repeat }
 .banner_jz .banner_ba_jz .bnner_jzwz { width:1002px; height:588px; margin:0 auto; position:relative }
