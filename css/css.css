@@ -882,7 +882,7 @@ opacity:0 }
 .caseConList .casePic { height:200px }
 .caseConList .casePicHover { background:url("../image/case/casePic-hover2.png")/*tpa=http://zqsdk.cn/image/case/casePic-hover2.png*//*tpa=http://zqsdk.cn/image/case/casePic-hover2.png*/ no-repeat }
 .caseConList .casePic img { display:block; width:265px;height: 200px; margin:10px }
-.caseConList .caseText { clear:both; height:auto; padding:12px 0 0 0; font-family:"微软雅黑";text-align: center; }
+.caseConList .caseText { clear:both; height:auto; padding:12px 0 0 0; font-family:"微软雅黑"; }
 .caseConList .caseText a { text-decoration:none; text-shadow:1px 1px #fff; font-size:14px; font-weight:bold; color:#2f82ff; }
 .caseText span{text-decoration:none; text-shadow:1px 1px #fff; font-size:14px; font-weight:bold; color:#2f82ff; margin-left:20px}
 .caseText a{ float:right;margin-right:20px;}
