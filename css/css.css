@@ -886,7 +886,7 @@ opacity:0 }
 .caseConList .caseText a { text-decoration:none; text-shadow:1px 1px #fff; font-size:14px; font-weight:bold; color:#2f82ff; }
 .caseText span{text-decoration:none; text-shadow:1px 1px #fff; font-size:14px; font-weight:bold; color:#2f82ff; margin-left:20px}
 .caseText a{ float:right;margin-right:20px;}
-.caseText p{ float:none; clear:both;}
+.caseText p{ float:none; clear:both;text-align: left;padding:5px;line-height: 0;}
 .caseConBottom { width:100%; height:18px }
 .casePreview { position:absolute; width:51px; height:32px; bottom:0; right:8px; display:none; background-color:#0079dc; text-align:center; line-height:35px; color:#fff; cursor:pointer; text-decoration:none }
 .caseCusBuild { float:left }
